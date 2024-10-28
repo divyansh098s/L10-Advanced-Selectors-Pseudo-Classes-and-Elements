@@ -1,0 +1,40 @@
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:black ;
+color: aqua;
+}
+h1{
+color: honeydew;
+}
+a{
+color: lime;
+text-decoration: none;
+}
+a:hover{
+color: coral;
+}
+ul>li{
+font-weight: bold;
+}
+h1+p{
+background-color: mediumvioletred;
+padding: 10px;
+border-radius: 5px;
+}
+ul li:hover{
+color: blanchedalmond;
+}
+ul li:nth-child(3){background-color: firebrick;}
+p:not(:first-of-type ){
+text-decoration: underline;
+}
+ul li::before{
+content: "🚀 ";
+}
+a::after{
+content: " 🌌";
+}
+p::first-letter{
+font-size: 200%;
+color: darkorange;
+}
